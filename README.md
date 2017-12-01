@@ -83,6 +83,8 @@ exactly what went wrong and where.
 
 ## Installation
 
+First, [install emacs][install-emacs] if you haven't already.
+
 Download the bootstrap script into your emacs directory
 
 ```
@@ -98,6 +100,21 @@ add the following lines to the top of your `init.el`:
 ```
 
 Restart your Emacs and away you go!
+
+If you get warnings about unknown hosts when you start up, you just
+need to visit [the hosts from which we will fetch
+packages][https://github.com/thefrontside/frontmacs/blob/master/scripts/init-frontmacs.el#L25]
+in a web browser.
+
+## Usage
+Frontmacs adds quite a few interesting packages and commands to your
+Emacs -- so many that it can be hard to make sense of at first. A few
+tips:
+
+- The keyboard command denoted as `s-` means the `Super` key, which on
+  a Mac is just the `Command` key, also known as `Apple` or `splat`.
+- `<open>` means `Command-O`.
+- `<execute>` means ???
 
 ## Configuration
 
@@ -154,6 +171,7 @@ $ make runlocal
 ```
 
 [frontside]: http://frontside.io
+[install-emacs]: http://wikemacs.org/wiki/Installing_Emacs
 [2]: https://github.com/technomancy/emacs-starter-kit
 [3]: https://github.com/bbatsov/prelude
 [4]: http://spacemacs.org/
